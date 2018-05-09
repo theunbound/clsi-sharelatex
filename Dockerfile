@@ -8,6 +8,7 @@ RUN npm install
 
 
 RUN npm run compile:all
+RUN npm run compile:smoke_tests
 
 FROM node:6.13.0
 
